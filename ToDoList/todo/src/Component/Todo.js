@@ -74,7 +74,7 @@ const Todo = () => {
                     value={inputData}
                      onChange={(e)=>setInputData(e.target.value)}/>
                      {
-                        toggleBtn ? <button onClick={addItem}><i class="fa-solid fa-plus"></i></button>: <button onClick={addItem}>
+                        toggleBtn ? <button type='submit' onClick={addItem}><i class="fa-solid fa-plus"></i></button>: <button type='submit' onClick={addItem}>
                         <i class="fa-regular fa-pen-to-square"></i>
                     </button>
                      }
